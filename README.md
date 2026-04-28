@@ -5,6 +5,9 @@
 
 Create and manage a staging copy of your WordPress site in a subdirectory or subdomain — no external services, no subscriptions.
 
+<img width="865" height="638" alt="image" src="https://github.com/user-attachments/assets/262a2ebd-544c-4595-8a89-49c899c92c2e" />
+
+
 ## Features
 
 - Clones the live database into a staging-specific table prefix (but in the same database for higher performance)
