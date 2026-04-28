@@ -12,7 +12,7 @@ Create and manage a staging copy of your WordPress site in a subdirectory or sub
 
 - Clones the live database into a staging-specific table prefix (but in the same database for higher performance)
 - Copies all WordPress files into a subdirectory of your choosing
-- Works with subdomains (staging.) who's files are in a subdirectory
+- Works with subdomains (staging.website.be)
 - Rewrites URLs, paths, and configuration so the staging site works out of the box
 - Runs in small batches so it won't time out on large sites
 - One-click deletion removes all staging files and database tables
@@ -76,6 +76,7 @@ Deleting the plugin via **Plugins → Delete** triggers `uninstall.php`, which r
 ## Tested
 
 This plugin was tested on a shared hosting website:
+* WP version 6.9.4 with >15 active plugins
 * 100+ tables
 * 20k+ files
 
